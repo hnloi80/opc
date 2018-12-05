@@ -12,7 +12,7 @@ $_['entry_name']        = 'Module Name';
 $_['entry_title']       = 'Heading Title';
 $_['entry_description'] = 'Description';
 $_['entry_status']      = 'Status';
-
+$_['entry_title2']       = 'Link video';
 // Error
 $_['error_permission']  = 'Warning: You do not have permission to modify HTML Content module!';
 $_['error_name']        = 'Module Name must be between 3 and 64 characters!';

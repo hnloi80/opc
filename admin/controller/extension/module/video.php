@@ -32,7 +32,8 @@ class ControllerExtensionModuleVideo extends Controller {
 		} else {
 			$data['error_name'] = '';
 		}
-
+		$data['entry_title'] = $this->language->get('entry_title');
+		$data['entry_title2'] = $this->language->get('entry_title2');
 		$data['breadcrumbs'] = array();
 
 		$data['breadcrumbs'][] = array(
@@ -100,7 +101,6 @@ class ControllerExtensionModuleVideo extends Controller {
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
-
 		$this->response->setOutput($this->load->view('extension/module/video', $data));
 	}
 
