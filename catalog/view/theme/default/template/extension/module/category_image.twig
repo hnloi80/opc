@@ -1,0 +1,21 @@
+<h3 class="heading">{{ heading_title }}</h3>
+<div class="row">
+{% for category in categories %}
+	<div class="category-item col-sm-6">
+
+	    
+	    <a href="{{ category.href }}" class="collection-list__link">
+	    
+	        <div class="collection-list__item">
+	        	<div class="item-bg" style="background-image:url('https://cdn.shopify.com/s/files/1/0062/9748/5364/files/monosketch_stationery_900x.jpg');background-size: 100% 100%;background-position: center center"></div>
+	            <div class="collection-list__title u-flex u-flex--middle u-flex--center collection-list__title--border">
+	                <h3 class="collection-list__title-text h2">{{ category.name }}</h3>
+	            </div>
+	        </div>
+	    	<div class="overlay"></div>
+	    </a>
+	    
+
+	</div>
+{% endfor %}
+</div>
