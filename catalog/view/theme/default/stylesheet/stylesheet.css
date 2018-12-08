@@ -202,9 +202,7 @@ div.required .control-label:before {
 	min-height: 15px;
 	background-color: transparent;
 }
-#menu .nav > li > a:hover, #menu .nav > li.open > a {
-	background-color: rgba(0, 0, 0, 0.1);
-}
+
 #menu .dropdown-menu {
 	padding-bottom: 0;
 }

@@ -27,12 +27,28 @@ h5, .h5 {
 #menu{
 	background: none !important;
 	border: none;
+    width: 1000px;
+    margin: auto;
 }
 #menu .nav > li > a{
 	
 	color: #535353 !important;
 }
-
+a {
+    text-decoration: none;
+    color: #535353;
+}
+a:hover {
+    color: #111;
+}
+/* Menu */
+#menu .nav > li > a{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#menu .nav > li > a:hover, #menu .nav > li.open > a {
+    background-color: none;
+}
 /* List category home */
 
 .heading{
@@ -105,7 +121,7 @@ h5, .h5 {
     position: relative;
     width: 100%;
     height: auto;
-    min-height: 360px;
+    min-height: 420px;
     margin-bottom: 30px;
     padding-bottom: 24px;
 }
@@ -153,8 +169,8 @@ h5, .h5 {
 }
 .product-layout .image{
 	display: inline-block;
-	width: 230px;
-	height: 230px;
+	width: 340px;
+	height: 340px;
 	position: relative;
 	margin: 0 auto;
 }
@@ -170,7 +186,13 @@ h5, .h5 {
     margin: 6px 0 0;
     line-height: 1;
 }
-
+.product-thumb{
+    text-align: center;
+    border: none;
+}
+.product-thumb .caption{
+    min-height: 80px !important;
+}
 /* Comment */
 .swiper-wrapper img{
 	display: inline-block;
